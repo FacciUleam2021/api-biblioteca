@@ -7,7 +7,7 @@ const { getItems, getItem, createItem, deleteItem, updateItem } = require('../co
 const { validateCreate } = require('../validators/users')
 import * as librosCtrl from "../controlles/libros";
 
-router.get('/',[checkAuth], getItems) //TODO: http://localhost:3001/api/1.0/tracks 🔴🔴
+router.get('/', getItems) //TODO: http://localhost:3001/api/1.0/tracks 🔴🔴
 
 router.get('/:editorialId', librosCtrl.getLibroByIdDetalle)
 
