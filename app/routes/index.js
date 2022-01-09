@@ -13,7 +13,7 @@ fs.readdirSync(pathRouter).filter((file) => {
     const skip = ['index'].includes(fileWithOutExt)
     if (!skip) {
         router.use(`/${fileWithOutExt}`, require(`./${fileWithOutExt}`)) //TODO: localhost/users
-        console.log('CARGAR RUTA ---->', fileWithOutExt)
+        //console.log('CARGAR RUTA ---->', fileWithOutExt)
     }
 })
 

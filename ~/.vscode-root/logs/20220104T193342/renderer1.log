@@ -1,0 +1,148 @@
+[2022-01-04 19:33:51.892] [renderer1] [error] [Extension Host] (node:11765) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-01-04 19:35:31.310] [renderer1] [error] [Extension Host] (node:12205) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-01-04 19:35:34.510] [renderer1] [error] [Extension Host] validating /home/steban/biblioteca/node-api-tracks/~/.vscode-root/User/globalStorage/tabnine.tabnine-vscode/binaries/4.0.44/x86_64-unknown-linux-musl/TabNine timeout
+[2022-01-04 19:41:10.235] [renderer1] [warning] [File Watcher (parcel)] ignoring a path for watching who's parent is already watched: /home/steban/biblioteca/node-api-tracks
+[2022-01-04 19:41:10.841] [renderer1] [error] [Extension Host] (node:12882) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-01-04 19:41:13.362] [renderer1] [error] [Extension Host] validating /home/steban/biblioteca/node-api-tracks/~/.vscode-root/User/globalStorage/tabnine.tabnine-vscode/binaries/4.0.44/x86_64-unknown-linux-musl/TabNine timeout
+[2022-01-04 19:44:27.505] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 19:45:54.313] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: terminated by itself with code undefined, signal: SIGSEGV
+[2022-01-04 19:45:54.526] [renderer1] [warning] [File Watcher (parcel)] ignoring a path for watching who's parent is already watched: /home/steban/biblioteca/node-api-tracks
+[2022-01-04 19:56:48.323] [renderer1] [warning] [File Watcher (parcel)] ignoring a path for watching who's parent is already watched: /home/steban/biblioteca/node-api-tracks
+[2022-01-04 19:56:48.324] [renderer1] [warning] [File Watcher (parcel)] ignoring a path for watching who's parent is already watched: /home/steban/biblioteca/angular-spotify
+[2022-01-04 19:58:56.791] [renderer1] [error] [File Watcher (parcel)] restarting watcher after error: terminated by itself with code undefined, signal: SIGSEGV
+[2022-01-04 19:58:57.055] [renderer1] [warning] [File Watcher (parcel)] ignoring a path for watching who's parent is already watched: /home/steban/biblioteca/node-api-tracks
+[2022-01-04 19:58:57.056] [renderer1] [warning] [File Watcher (parcel)] ignoring a path for watching who's parent is already watched: /home/steban/biblioteca/angular-spotify
+[2022-01-04 21:28:34.871] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:29:27.216] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:29:31.725] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:44:50.102] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:44:51.101] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:44:52.102] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:44:53.104] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:45:00.503] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:46:02.870] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:46:03.870] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:46:04.902] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:46:05.889] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:49:00.603] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:49:02.074] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:51:14.310] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:51:23.219] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 21:51:28.589] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:13:08.033] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:13:09.914] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:13:11.110] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:13:37.612] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:13:43.208] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:14:18.476] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:14:19.464] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:14:20.849] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:17:22.916] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:17:24.747] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:17:28.653] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:17:29.889] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:17:31.763] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:17:34.266] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2022-01-04 22:30:35.651] [renderer1] [error] [Extension Host] Error: Binary request timed out.
+	at Timeout._onTimeout (/root/.vscode/extensions/tabnine.tabnine-vscode-3.5.13/out/extension.js:17:31578)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)

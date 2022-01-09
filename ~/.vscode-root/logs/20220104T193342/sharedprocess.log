@@ -1,0 +1,18 @@
+[2022-01-04 19:33:53.436] [sharedprocess] [info] Deleted from disk esbenp.prettier-vscode /root/.vscode/extensions/esbenp.prettier-vscode-9.0.0
+[2022-01-04 19:35:31.178] [sharedprocess] [info] Starting worker process with pid 12221 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-04 19:45:54.251] [sharedprocess] [error] SharedProcess (worker, watcherServiceParcelSharedProcess): Worker process with pid 12221 terminated by itself with code null, signal: SIGSEGV (type: watcherServiceParcelSharedProcess, window: 1)
+[2022-01-04 19:45:54.326] [sharedprocess] [info] Starting worker process with pid 13376 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-04 19:58:56.789] [sharedprocess] [error] SharedProcess (worker, watcherServiceParcelSharedProcess): Worker process with pid 13376 terminated by itself with code null, signal: SIGSEGV (type: watcherServiceParcelSharedProcess, window: 1)
+[2022-01-04 19:58:56.809] [sharedprocess] [info] Starting worker process with pid 14611 (type: watcherServiceParcelSharedProcess, window: 1).
+[2022-01-04 21:37:31.091] [sharedprocess] [info] Installing extension: steoates.autoimport
+[2022-01-04 21:37:39.894] [sharedprocess] [info] Downloaded extension: steoates.autoimport /home/steban/biblioteca/node-api-tracks/~/.vscode-root/CachedExtensionVSIXs/steoates.autoimport-1.5.4
+[2022-01-04 21:37:41.147] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.34477a35-37e0-4e75-8374-e09518783315: steoates.autoimport
+[2022-01-04 21:37:41.203] [sharedprocess] [info] Renamed to /root/.vscode/extensions/steoates.autoimport-1.5.4
+[2022-01-04 21:37:41.204] [sharedprocess] [info] Extracting completed. steoates.autoimport
+[2022-01-04 21:37:41.207] [sharedprocess] [info] Extension installed successfully: steoates.autoimport
+[2022-01-04 21:39:59.707] [sharedprocess] [info] Installing extension: natewallace.angular2-inline
+[2022-01-04 21:40:01.683] [sharedprocess] [info] Downloaded extension: natewallace.angular2-inline /home/steban/biblioteca/node-api-tracks/~/.vscode-root/CachedExtensionVSIXs/natewallace.angular2-inline-0.0.17
+[2022-01-04 21:40:01.720] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.3948052c-c833-41c6-b785-f9827f6e31c5: natewallace.angular2-inline
+[2022-01-04 21:40:01.760] [sharedprocess] [info] Renamed to /root/.vscode/extensions/natewallace.angular2-inline-0.0.17
+[2022-01-04 21:40:01.761] [sharedprocess] [info] Extracting completed. natewallace.angular2-inline
+[2022-01-04 21:40:01.763] [sharedprocess] [info] Extension installed successfully: natewallace.angular2-inline
