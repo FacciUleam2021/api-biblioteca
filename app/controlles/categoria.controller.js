@@ -14,11 +14,11 @@ export const getCategorias = async (req, res) => {
 
 //-----------------------------CREATE AUTORES---------------
 export const createCategoria = async (req, res) => {
-  const { id, name } = req.body;
+  const { id, names } = req.body;
   try {
     const newLink = {
       id,
-      name,
+      names,
     };
     await pool.query(
       "INSERT INTO categorias set ?",
@@ -54,9 +54,9 @@ export const getCategoriaById = async (req, res) => {
 //-----------------------------EDITAMOS---------------
 export const updateCategoriaById = async (req,res)=>{
       const { id } = req.params;
-      const { name,} = req.body; 
+      const { names,} = req.body; 
       const newLink = {
-        name,
+        names,
      };
      await pool.query('UPDATE categorias set ? WHERE id = ?', [newLink, id],(err, rows, fields) => {
         if(!err) {

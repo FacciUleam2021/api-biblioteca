@@ -3,12 +3,12 @@ const jwt = require('jsonwebtoken') //TODO : 😎
 const tokenSign = async (user, toles) => { //TODO: Genera Token
     return jwt.sign(
         {
-            _id: user._id, //TODO: <---
+            _id: user.id, //TODO: <---
             role: toles
         }, //TODO: Payload ! Carga útil
         process.env.JWT_SECRET, //TODO ENV 
         {
-            expiresIn: "2h", //TODO tiempo de vida
+            expiresIn: "2d", //TODO tiempo de vida
         }
     );
 }

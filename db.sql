@@ -18,7 +18,7 @@ SELECT * FROM autor;
 
 CREATE TABLE categorias (
   id INT(11) NOT NULL AUTO_INCREMENT,
-  name VARCHAR(100) DEFAULT NULL,
+  names VARCHAR(100) DEFAULT NULL,
   PRIMARY KEY(id)
 );
 
@@ -92,6 +92,7 @@ CREATE TABLE libro (
   fkautor int(11) NOT NULL,
   fkcategoria int(11) NOT NULL,
   fkeditorial int(11) NOT NULL,
+  documento varchar(155) DEFAULT NULL,
   PRIMARY KEY(id)
 );
 
@@ -106,9 +107,18 @@ ALTER TABLE libro
   ADD CONSTRAINT `FK_TIENE` FOREIGN KEY (`fkautor`) REFERENCES `autor` (`id`);
 
   INSERT INTO libro values 
-  (1, 'El Señor de los Anillos', '2018-02-07', 'http://localhost:3001/1.jpg', '1', 1, 1, 1),
-  (2, 'El Señor de los Anillos', '2018-02-07', 'http://localhost:3001/2.jpg', '1', 2, 1, 2),
-  (3, 'El Señor de los Anillos', '2018-02-07', 'http://localhost:3001/3.jpg', '1,2', 2, 1, 2);
+  (1, 'El Señor de los Anillos', '2018-02-07', 'http://localhost:3000/1.jpg', '1', 1, 1, 1),
+  (2, 'El Alquimista', '2018-02-07', 'http://localhost:3000/2.jpg', '1', 2, 1, 2),
+  (3, 'El Código da Vinci', '2018-02-07', 'http://localhost:3000/3.jpg', '1,2', 2, 1, 2);
 
+
+
+
+-- --------------------------------NO EJECUTASR---------------
   ALTER TABLE libro
 ADD documento varchar(155);
+
+
+
+ALTER TABLE categorias RENAME COLUMN name TO names;
+

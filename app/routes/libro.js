@@ -1,27 +1,26 @@
 import { Router } from "express";
 const router = Router();
-
-
+const checkAuth = require('../middleware/auth')
 import * as librosCtrl from "../controlles/libro.controller";
 //import { authJwt } from "../middlewares";
 
-router.get("/busqueda", librosCtrl.getAllSeach);
+router.get("/busqueda", [checkAuth], librosCtrl.getAllSeach);
 
 //router.get("/seach", librosCtrl.getLibrosSeach);
 
-router.get("/home", librosCtrl.getLibrosHome);
+router.get("/home",[checkAuth], librosCtrl.getLibrosHome);
 
-router.get("/:id", librosCtrl.getLibroById);
+router.get("/:id",[checkAuth], librosCtrl.getLibroById);
 
-router.get("/", librosCtrl.getLibros);
+router.get("/",[checkAuth], librosCtrl.getLibros);
 
 
 
-router.post( "/",librosCtrl.createLibro);
+router.post( "/",[checkAuth], librosCtrl.createLibro);
 
-router.put("/:id", librosCtrl.updateLibroById);
+router.put("/:id", [checkAuth], librosCtrl.updateLibroById);
 
-router.delete("/:id", librosCtrl.deleteLibroById);
+router.delete("/:id", [checkAuth], librosCtrl.deleteLibroById);
 
 
 module.exports = router

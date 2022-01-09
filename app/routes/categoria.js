@@ -1,18 +1,18 @@
 import { Router } from "express";
 const router = Router();
-
+const checkAuth = require('../middleware/auth')
 
 import * as categoriaCtrl from "../controlles/categoria.controller";
 //import { authJwt } from "../middlewares";
-router.get("/", categoriaCtrl.getCategorias);
+router.get("/", [checkAuth], categoriaCtrl.getCategorias);
 
-router.get("/:id", categoriaCtrl.getCategoriaById);
+router.get("/:id", [checkAuth], categoriaCtrl.getCategoriaById);
 
-router.post( "/", categoriaCtrl.createCategoria);
+router.post( "/", [checkAuth], categoriaCtrl.createCategoria);
 
-router.put("/:id", categoriaCtrl.updateCategoriaById);
+router.put("/:id", [checkAuth], categoriaCtrl.updateCategoriaById);
 
-router.delete("/:id", categoriaCtrl.deleteCategoriaById);
+router.delete("/:id", [checkAuth], categoriaCtrl.deleteCategoriaById);
 
 
 module.exports = router

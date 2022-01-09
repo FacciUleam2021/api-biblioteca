@@ -31,9 +31,9 @@ export const getLibrosHome = async (req, res) => {
   export const getAllSeach = async (req,res)=>{
       let a = 'select tabla1.*,tabla2.*  from tabla1,tabla2 where tabla1.id = tabla2.id;'
       let b = "SELECT `id`, FROM libro a INNER JOIN categorias b ON a.fkcategoria = b.id"
-    await pool.query("select libro.*,categorias.*,autor.*  from libro,categorias,autor where libro.fkcategoria = categorias.id AND libro.fkautor= autor.id;", (err, rows, fields) => {
+    await pool.query("select categorias.*,autor.*,libro.*  from categorias,autor,libro where libro.fkcategoria = categorias.id AND libro.fkautor= autor.id;", (err, rows, fields) => {
         if (!err) {
-          res.json({data: rows});
+          res.json(rows);
         } else {
           console.log(err);
         }
@@ -68,7 +68,7 @@ export const createLibro = async (req, res) => {
 
 export const getLibroById = async (req, res) => {
   const { id } = req.params;
-  pool.query("SELECT * FROM libro WHERE id = ?", [id], (err, rows, fields) => {
+  pool.query("SELECT categorias.*,autor.*,libro.*  from categorias,autor,libro WHERE libro.id = ?", [id], (err, rows, fields) => {
     if (!err) {
       res.json(rows[0]);
     } else {

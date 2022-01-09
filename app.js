@@ -2,17 +2,16 @@ require('dotenv').config()
 const epxress = require('express')
 const cors = require('cors')
 const app = epxress()
-const { dbConnect } = require('./config/mongo')
 const { mysql } = require('./config/database')
-import './config/mongo';
-import { createRoles, createAdmin} from "./app/libs/initialSetup";
+
+import {  createAdministrador} from "./app/libs/initialSetup";
 import morgan from "morgan";
 
 
 
 const PORT = process.env.PORT || 3000
 app.use(cors())
-
+//createAdministrador();
 app.use(epxress.json())
 app.use(morgan("dev"));
 app.use(epxress.static('public'));
